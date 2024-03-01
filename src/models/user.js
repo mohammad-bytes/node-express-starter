@@ -12,8 +12,8 @@ const userSchema = new mongoose.Schema({
 		type: Number,
 		unique: true
 	},
-	profile:{
-		type:String,
+	profile: {
+		type: String,
 	}
 }, {
 	timestamps: true
